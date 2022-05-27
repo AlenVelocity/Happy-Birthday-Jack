@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.background {
+    background: rgb(200, 109, 220);
+    background: linear-gradient(200deg, rgb(219, 147, 204) 0%, rgb(216, 111, 139) 71%);
+}
+
+.canvas {
+    height: 100%;
+    left: 0px;
+    pointer-events: none;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 0;
+}
+  
