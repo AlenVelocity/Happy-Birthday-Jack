@@ -87,5 +87,7 @@ export default class Confetti extends Component {
 
   componentDidMount = async () => {
     this.startAnimation();
+    await new Promise(resolve => setTimeout(resolve, 5000));
+    this.stopAnimation();
   }
 }
